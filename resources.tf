@@ -6,7 +6,7 @@ data "aws_ami" "fxa_lnx_web" {
 
   filter {
      name = "name"
-     values  = ["FXA_APP_Blog_WP_TST"]
+     values  = ["AWSLNX2-WP-for-Blog-01"]
 }
   owners = ["833193269516"] # FXA Account
 
